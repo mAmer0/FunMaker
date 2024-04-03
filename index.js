@@ -1,9 +1,9 @@
 let decision;
-const animePics = ['/anime/anime1.jpg', '/anime/anime2.jpg', '/anime/anime3.jpg',
-                   '/anime/anime4.jpg', '/anime/anime5.jpg', '/anime/anime6.jpg', ];
+const animePics = ['/FunMaker/anime/anime1.jpg', '/FunMaker/anime/anime2.jpg', '/FunMaker/anime/anime3.jpg',
+                   '/FunMaker/anime/anime4.jpg', '/FunMaker/anime/anime5.jpg', '/FunMaker/anime/anime6.jpg', ];
 
-const studyPics = ['/study/study1.jpg', '/study/study2.jpg', '/study/study3.jpg',
-                   '/study/study4.jpg', '/study/study5.jpg', '/study/study6.jpg',];
+const studyPics = ['/FunMaker/study/study1.jpg', '/FunMaker/study/study2.jpg', '/FunMaker/study/study3.jpg',
+                   '/FunMaker/study/study4.jpg', '/FunMaker/study/study5.jpg', '/FunMaker/study/study6.jpg',];
 
 const textOfAnime = ['have funn, dude :D', 'well deserved :)', 'so naruro or what?'];
 const textOfStudy = ['go study, bitch :(', 'go finish ur css tutorial, idiot!', 'u have to study to get out of egypt :('];
