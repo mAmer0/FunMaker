@@ -1,40 +1,46 @@
 body {
     text-align: center;
-    font: 20px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #A8CD9F;
-    color: #1B4242;
-    display: grid;
-    place-items: center;
-    height: 10vh;
-    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background-image: url(l.jpg);
+    background-attachment: fixed;
+    color: #ff0011;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
 }
 
 #btn {
-    background-color: #58A399;
-    color: #1B4242;
-    font: bold 15px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 50px;
-    width: 100px;
-    border: none;
-    border-radius: 10px;
+    background-color: #FFD700; /* Yellow button */
+    color: #800080;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 3px double #800080;
+    border-radius: 20px;
     margin: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #btn:hover {
-    background-color: #04AA6D;
+    background-color: #800080;
 }
 
 #imgContainer {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 #imgContainer img {
     width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px;
+    height: 100%;
+    object-fit: cover;
 }
 
 #textContainer {
