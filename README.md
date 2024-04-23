@@ -1,2 +1,2 @@
 # mAmer0-FunMaker
-mamer0.github.io/FunMaker/
+https://mamer0.github.io/FunMaker
